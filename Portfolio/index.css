@@ -1,0 +1,232 @@
+body{
+    margin:0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url("https://th.bing.com/th/id/R.462bf1f4c6cc54ae1b0df8dc5f8fad09?rik=MCLd%2b3G7TKiV%2bg&riu=http%3a%2f%2floft14design.com%2fimages%2fbg_portfolio_greybrick.jpg&ehk=J93%2fiRlKP5F2x19qWMigSoaM5Ef1qM5PXu8Ee2p6tuE%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: repeat;
+    width:100%;
+}
+.logo{
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgb(11, 0, 11);
+    box-shadow: 0px 0px 3px 0px rgb(4, 0, 4);
+    background-color: black;
+    opacity: 0.5;
+    padding: 15px;
+ display: flex;  
+ justify-content: space-between; 
+ padding: 10px;
+ color: aliceblue;
+}
+.nav
+{
+    
+    display: flex;
+    margin-right: 42px;
+    gap: 20px;
+    font-size: large;
+    color: rgba(246, 246, 246, 0.972);
+}
+/* .home{
+    border:1px solid black;
+} */
+.head{
+    display: flex;
+    width: 900px; 
+    margin: 40px auto;
+    gap: 20%;
+    color: aliceblue;
+}
+.subhead{
+    justify-content: center;
+}
+.img1{
+    width: 250px;
+    border-radius: 25px;
+    
+}
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn1{
+    border:none;
+    display:inline-flex;
+    width: 100%;
+    justify-content: space-around;
+}
+button{
+    background-color: rgb(7, 0, 4);
+    border: none;
+    color:rgb(249, 249, 243);
+    padding:12px 14px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.s3
+{
+    display: flex;
+    color: aliceblue;
+    width: 900px;
+    margin: 20px auto;
+    gap: 50px;
+}
+.photo{
+    width: 225px;
+    border-radius: 25px;
+}
+.h3,.p1
+{
+    color: aliceblue;
+}
+/* .java{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    border: 2px solid white;
+  
+   margin-bottom: 20px;
+   justify-content: space-between;
+   
+}
+.Skill
+{
+    display: flex;
+   
+   align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.Skill1
+{
+    
+    margin-bottom: 20px;
+    gap: 15px;
+   
+}
+
+img{
+    width: 50px;
+}
+.tech
+{
+}
+.navbar{
+    width: 100%;
+   
+    color: yellow;
+    height:10px;
+}
+.pbar
+{
+    width: 100%;
+    background: linear-gradient(to right,blue 90%,white 10%);
+    height: 10px;
+    border-radius: 30px;
+} */
+.exp{
+    width: 800px;
+    margin: 10px auto;
+    padding: 60px;
+    margin-bottom: 10px;
+}
+img{
+    width: 40px;
+}
+.navbar{
+    width: 100%;
+   
+    color: yellow;
+    height:10px;
+}
+.pbar
+{
+    width: 100%;
+    background: linear-gradient(to right,blue 90%,white 10%);
+    height: 8px;
+    border-radius: 30px;
+} 
+.sym{
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.jet
+{
+    display: flex;
+    color: aliceblue;
+    width: 770px;
+    margin: 20px auto;
+    gap: 50px;
+}
+.Emp
+{
+    border: 2px solid lightslategrey;
+    border-radius: 3px;
+    padding: 10px;
+    }
+.Emp:hover{
+    box-shadow: 0px 0px 2px 2px gray;
+    background-color: rgba(128, 128, 128, 0.214);
+    border-radius: 15px;
+}
+.Con
+{
+    display: flex;
+    color: aliceblue;
+    width: 770px;
+    margin: 20px auto;
+}
+.det
+{
+    border: 2px solid lightslategrey;
+    border-radius: 3px;
+    padding: 10px;
+    width: 770px;
+}
+.det:hover
+{
+    box-shadow: 0px 0px 2px 2px gray;
+    background-color: rgba(128, 128, 128, 0.214);
+    border-radius: 15px;
+}
+a{
+    color: aliceblue;
+    target:_blanck;
+    text-decoration: none;
+}
+.out:hover{
+    border: 2px solid rgb(235, 227, 227);
+    box-shadow: 0px 0px 2px 2px gray;
+    background-color: rgba(128, 128, 128, 0.214);
+    padding: 5px;
+}
+.jets:hover{
+    border: 2px solid rgb(235, 227, 227);
+    box-shadow: 0px 0px 2px 2px gray;
+    background-color: rgba(128, 128, 128, 0.214);
+    padding: 5px;
+}
+.tac:hover{
+    border: 2px solid rgb(235, 227, 227);
+    box-shadow: 0px 0px 2px 2px gray;
+    background-color: rgba(128, 128, 128, 0.214);
+    padding: 5px;
+}
+.he:hover{
+    border: 2px solid rgb(235, 227, 227);
+    box-shadow: 0px 0px 2px 2px gray;
+    background-color: rgba(128, 128, 128, 0.214);
+    padding: 5px;
+}
+.up
+{
+   
+    position:fixed;
+    bottom:250px;
+   right: -0;
+    width: 30px;
+}
+.up:hover{
+    background-color: black;
+    box-shadow: 0px 0px 2px 2px gray;
+}
